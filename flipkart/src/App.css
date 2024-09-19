@@ -1,0 +1,117 @@
+
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.header{
+  background-color: aquamarine;
+}
+.nav{
+  /* height:71px; */
+  display: flex;
+  background-color: white;
+  width: 100%;
+ 
+  /* background-color: aquamarine; */
+}
+.flogo{
+  width: 100px;
+  height: 82px;
+  margin-top: -5px;
+  margin-left: 7rem;
+
+}
+
+.text{
+  gap: 20px;
+  margin-left: 3rem;
+  height: 41px;
+  margin-top: 12px;
+  width: 34rem;
+  border-radius: 9px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(218, 239, 247);
+  color: rgb(184, 181, 181);
+ 
+}
+.login{
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 11px;
+  background-color: white;
+  border-radius: 17px;
+  display: flex;
+}
+.login:hover{
+  background-color: rgb(62, 177, 223);
+  color: white;
+}
+.person{
+  margin-top: 10px;
+  padding: 5px;
+  width: 26px;
+    height: 26px;
+}
+.loginn{
+ font-size: 20px;
+    padding: 2px;
+    margin-top: 16px;
+    font-family: Arial,sans-serif;
+    border: 0px solid transparent;
+
+}
+.drop{
+  width: 20px;
+  height: 23px;
+  margin-top: 17px;
+  border:none;
+}
+.cart{
+  font-family: Arial,sans-serif;
+  margin-top: 9px;
+}
+.Cart{
+  margin-left: 5rem;
+  margin-top: 23px;
+  width: 26px;
+    height: 26px;
+}
+.cart_text{
+  margin-left: 7rem;
+  margin-top: -2rem;
+  font-size: 20px;
+
+}
+
+.become_seller{
+  font-size: 17px;
+  font-family: Arial,sans-serif;
+    margin-top: 26px;
+    margin-left: 98px;
+}
+
+.newDemo{
+  background-color: rgb(240, 235, 235);
+  height: 100px;
+ 
+}
+.navbar{
+  display: flex;
+
+}
+.grocery{
+  margin-top: 10px;
+  width:50px;
+}
+.mainPage{
+  width: 100%;
+  height: 200px;
+}

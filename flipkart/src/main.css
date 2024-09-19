@@ -1,0 +1,134 @@
+.card{
+    background-color: white;
+    height: 126px;
+    width:1334;
+    margin: 10px;
+    overflow-x: hidden;
+    border: 1px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+
+}
+/* .card1{
+
+} */
+
+
+.Grocery{
+    width: 69px;
+    height: 71px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.grocery{
+    width: 90px;
+    padding: 16px;
+    
+    text-decoration: none;
+    position: relative;
+    box-sizing: content-box;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+.mob{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    padding-left: 10px;
+    height:17px;
+}
+.fashion{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+    padding-left: 10px;
+}
+
+.elect{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+    padding-left: 6px;
+}
+.home{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+}
+.app{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+    padding-left: 10px;
+}
+
+.travel{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+    padding-left: 22px;
+}
+.beauty{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+}
+
+.wheel{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    width: 53px;
+    height:17px;
+    padding-left: 4px;
+}
+
+.Elect_Cards{
+    background-color: white;
+    height: 350px;
+    width:1334px;
+    overflow-x: hidden; 
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+
+}
+.best{
+    margin-left: -402px;
+}
+.electronics{
+    display:flex;
+    justify-content: space-around;
+    height:300px;
+    /* border: 2px solid rgb(158, 156, 156); */
+    gap: 10px;
+    margin-top: 20px;
+    margin-left:0px;
+}
+.projectors{
+    border: 1px solid rgb(158, 156, 156);
+    
+}
+.project{
+    margin-top: 30px;
+    width:198px;
+    height:198px;
+    
+}
+.content{
+    font-size: 15px;
+    padding-left: 52px;
+    text-align: center;
+ color: rgb(112, 104, 104);
+    font-family: Arial,sans-serif;
+}
+.from{
+    font-size: 20px;
+    margin-left: 44px;
+}

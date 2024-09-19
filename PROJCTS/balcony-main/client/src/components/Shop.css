@@ -1,0 +1,131 @@
+.main_container{
+    display: flex;
+    min-height: 100vh;
+}
+/* middle elements of the div*/
+
+.main-middle{
+    display: flex;
+    padding-top: 4%;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.content>h1,p{
+    font-weight: bold;
+    text-align: left;
+}
+.content>p{
+    font-size: clamp(30%,60%,70%);
+}
+
+.content>h1{
+    font-size:clamp(2vw,4.5vw,6vw) ;
+}
+
+/* right side categaries(indoor,outdoor...) */
+
+.right{
+    padding-top: 10px;
+    width: fit-content;
+    /* height: fit-content; */
+}
+
+.plant_images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+#cat-imgs{
+    width: 130px;
+    height: 160px;
+}
+
+
+.left_image{
+    margin-bottom: 90px;
+    margin-right: 80px;
+}
+
+#cat-btn{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.indoor{
+    margin-bottom: 50px;
+}
+
+.outdoor{
+    margin-bottom: 50px;
+}
+
+.right_images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* default style for all anchor tag */
+
+.plant_images a{
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 820px) {
+    .content{
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content>h1{
+        font-size: 5vw;
+        align-self: center;
+    }
+
+    .content>p{
+        font-size: 8px;
+        display: flex;
+        align-self: center;
+    }
+
+    .main-middle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -0.1vw !important;
+    }
+    .plant_images{
+        justify-content: center;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #cat-imgs{
+        border-radius: 15px;
+    }
+
+    .left_image{
+        margin: 50px;
+    }
+    
+
+}
+
+
+

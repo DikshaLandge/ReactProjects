@@ -1,0 +1,28 @@
+
+.main{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 530px;
+    border-radius: 42px;
+    width: 40%;
+    padding-top: 12px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    color: red;
+  }
+  .buttons{
+    margin-left: 500px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  
+    /* background-color: aqua; */
+  }
+  .bt{
+    border: 10px solid red;
+    border-radius: 12px;
+  }
+  

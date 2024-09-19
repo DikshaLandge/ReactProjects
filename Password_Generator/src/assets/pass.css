@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 226, 146);
+}
+.main{
+    background-color: white;
+    width: 418px;
+    height: 43px;
+    padding: 68px;
+    border-radius: 25px;
+}
+.inputfield{
+    width: 270px;
+    height: 42px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.genbutton{
+    margin-left: 16px;
+    height: 47px;
+    color: white;
+    background-color: brown;
+}

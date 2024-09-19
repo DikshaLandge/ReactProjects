@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+.main-container {
+  height: auto;
+  color: green;
+  max-width: 120rem;
+  margin: 2rem auto;
+  background-color: azure;
+  display: flex;
+  background-image: url("./Components/HomePage/images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  font-size: 3rem; /* Updated to improve heading size */
+  margin-bottom: 2rem;
+}
+
+.right-info {
+  width: 100%; /* Updated to occupy full width on smaller screens */
+  max-width: 50rem; /* Set a maximum width for better readability */
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600; /* Updated to improve font-weight */
+  margin: 2rem 0;
+  letter-spacing: 0.1rem;
+}
+
+.login-input > input {
+  height: 4.7rem;
+  outline: none;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-input > input:focus {
+  border-color: #7bf183;
+}
+
+.login-input > label {
+  text-align: left;
+  margin-bottom: 1rem; /* Adjusted for better spacing */
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+button {
+  padding: 2rem 0;
+  background-color: #21d344;
+  color: #fff;
+  margin-top: 2rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: large; /* Adjusted to improve button size */
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
